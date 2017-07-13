@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Inovaday GCM</string>
+    <string name="action_subscribe_topic">Registrar no topico</string>
+    <string name="action_my_token">Meu FCM Token</string>
+</resources>

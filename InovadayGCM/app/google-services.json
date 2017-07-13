@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "842619120248",
+    "firebase_url": "https://inovaday-prodesp.firebaseio.com",
+    "project_id": "inovaday-prodesp",
+    "storage_bucket": "inovaday-prodesp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842619120248:android:aec08885f6c76d8f",
+        "android_client_info": {
+          "package_name": "br.com.prodesp.inovadaygcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842619120248-e4mik6illh5mh7roa73hmaoe8qpne1fn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.prodesp.inovadaygcm",
+            "certificate_hash": "b5162f383743adf69cd5a8aee75c2fb0899bdaca"
+          }
+        },
+        {
+          "client_id": "842619120248-0t0jdnoetpfcde1rqfrbe067pqik8sbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAqlRsKfMLc4dAuH4x--e0Yodwyc8-wpo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842619120248-0t0jdnoetpfcde1rqfrbe067pqik8sbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

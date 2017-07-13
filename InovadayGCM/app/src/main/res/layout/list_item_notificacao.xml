@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layContainer"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21/01/16 10:00"
+            android:id="@+id/lblData"
+            android:textSize="12dp"
+            android:clickable="true"
+            android:layout_gravity="right|top" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nova!"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:id="@+id/lblNew"
+            android:paddingRight="5dp"
+            android:textSize="10dp"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+
+    </FrameLayout>
+
+    <TextView
+        android:padding="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta é uma mensagem de teste para verificar se o conteúdo cabe em mais de uma linha. Esta é uma mensagem de teste para verificar se o conteúdo cabe em mais de uma linha. Esta é uma mensagem de teste para verificar se o conteúdo cabe em mais de uma linha"
+        android:id="@+id/lblMensagem"
+        android:textSize="12dp"
+        android:gravity="left"
+        android:clickable="true" />
+
+</LinearLayout>
