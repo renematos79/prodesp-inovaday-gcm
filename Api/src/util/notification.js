@@ -1,5 +1,3 @@
-"use strict";
-
 var debug = require("debug")("apigcm:util:notification");
 var proxy = require("../util/network");
 
@@ -18,7 +16,6 @@ notification.prototype.push = function(topic, data) {
         "message_id": this.config.firebase().senderId,
         "notification": data
     };
-    debug("Sending message to => ", url, topic, header, body);
     return proxy.post(url, header, body);
 };
 
